@@ -25,7 +25,7 @@ contract BatchDeposit {
 
     uint256 public constant DEPOSIT_AMOUNT = 32 ether;
     // currently points at the Zinken Deposit Contract
-    address public constant DEPOSIT_CONTRACT_ADDRESS = 0x5cA1e00004366Ac85f492887AAab12d0e6418876;
+    address public constant DEPOSIT_CONTRACT_ADDRESS = 0x00000000219ab540356cBB839Cbe05303d7705Fa;
     IDeposit private constant DEPOSIT_CONTRACT = IDeposit(DEPOSIT_CONTRACT_ADDRESS);
 
     /*************** EVENT DECLARATIONS **************/
